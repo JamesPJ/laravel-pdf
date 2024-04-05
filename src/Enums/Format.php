@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelPdf\Enums;
+namespace Jamespj\LaravelPdf\Enums;
 
 enum Format: string
 {

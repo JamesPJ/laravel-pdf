@@ -10,7 +10,7 @@ This package provides a simple way to create PDFs in Laravel apps. Under the hoo
 Here's a quick example:
 
 ```php
-use Spatie\LaravelPdf\Facades\Pdf;
+use Jamespj\LaravelPdf\Facades\Pdf;
 
 Pdf::view('pdfs.invoice', ['invoice' => $invoice])
     ->format('a4')
@@ -22,7 +22,7 @@ This will render the Blade view `pdfs.invoice` with the given data and save it a
 You can also return the PDF as a response from your controller:
 
 ```php
-use Spatie\LaravelPdf\Facades\Pdf;
+use Jamespj\LaravelPdf\Facades\Pdf;
 
 class DownloadInvoiceController
 {
@@ -38,7 +38,7 @@ class DownloadInvoiceController
 You can use also test your PDFs:
 
 ```php
-use Spatie\LaravelPdf\Facades\Pdf;
+use Jamespj\LaravelPdf\Facades\Pdf;
 
 it('can render an invoice', function () {
     Pdf::fake();

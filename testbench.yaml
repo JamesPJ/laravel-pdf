@@ -1,5 +1,5 @@
 providers:
-  - Spatie\LaravelPdf\PdfServiceProvider
+  - Jamespj\LaravelPdf\PdfServiceProvider
   # - Workbench\App\Providers\WorkbenchServiceProvider
 
 workbench:

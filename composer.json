@@ -65,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\LaravelPdf\\PdfServiceProvider"
+                "Jamespj\\LaravelPdf\\PdfServiceProvider"
             ],
             "aliases": {
-                "LaravelPdf": "Pdf"
+                "LaravelPdf": "HtmlPdf"
             }
         }
     },

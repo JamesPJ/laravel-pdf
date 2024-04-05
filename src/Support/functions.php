@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\LaravelPdf\Support;
+namespace Jamespj\LaravelPdf\Support;
 
-use Spatie\LaravelPdf\Facades\Pdf;
-use Spatie\LaravelPdf\PdfBuilder;
+use Jamespj\LaravelPdf\Facades\Pdf;
+use Jamespj\LaravelPdf\PdfBuilder;
 
 function pdf(string $viewPath = '', array $data = []): PdfBuilder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelPdf;
+namespace Jamespj\LaravelPdf;
 
 use Illuminate\Support\Facades\Blade;
 use Spatie\LaravelPackageTools\Package;
